@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
-    <link rel="stylesheet" href="css/styles.css"> <!-- Link to an external CSS file -->
+    <link rel="stylesheet" href="css/homeStyles.css"> <!-- Link to an external CSS file -->
     <style>
         /* Inline CSS styles can also be defined here */
     </style>
