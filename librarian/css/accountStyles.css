@@ -1,0 +1,906 @@
+.librarian-account,
+.librarian-account * {
+  box-sizing: border-box;
+}
+.librarian-account {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.navbar-area {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 112px;
+  position: relative;
+}
+.navbar-area2 {
+  background: #ffffff;
+  width: 1440px;
+  height: 112px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.navbar {
+  width: 1121px;
+  height: 81px;
+  position: absolute;
+  left: 160px;
+  top: 16px;
+}
+.navbar2 {
+  background: #ffffff;
+  width: 1119px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.navbar-right {
+  width: 361px;
+  height: 81px;
+  position: absolute;
+  left: 760px;
+  top: 0px;
+}
+.navbar-right2 {
+  background: rgba(192, 236, 255, 0.22);
+  width: 359px;
+  height: 80px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.navbar-account {
+  width: 96px;
+  height: 81px;
+  position: absolute;
+  left: 265px;
+  top: 0px;
+}
+.navbar-account2 {
+  background: rgba(147, 177, 187, 0.12);
+  width: 96px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.account-icon {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 79px;
+  height: 79px;
+  position: absolute;
+  left: 9px;
+  top: 1px;
+}
+.account-icon-container {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #828282;
+  border-width: 1px;
+  width: 79px;
+  height: 80px;
+  position: absolute;
+  left: 9px;
+  top: 1px;
+}
+.navbar-liase {
+  width: 98px;
+  height: 81px;
+  position: absolute;
+  left: 132px;
+  top: 0px;
+}
+.navbar-liase2 {
+  background: rgba(147, 177, 187, 0.12);
+  width: 98px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.liase {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 98px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-database {
+  width: 95px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.navbar-database2 {
+  background: rgba(147, 177, 187, 0.12);
+  width: 95px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.database {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 1px;
+  top: 25px;
+  width: 94px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-center {
+  width: 361px;
+  height: 80px;
+  position: absolute;
+  left: 380px;
+  top: 0px;
+}
+.navbar-center2 {
+  background: rgba(192, 236, 255, 0.2);
+  width: 361px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.site-tile {
+  width: 343px;
+  height: 80px;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+.navbar-site-title {
+  background: rgba(147, 177, 187, 0.12);
+  width: 343px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.library-app {
+  color: #000000;
+  text-align: center;
+  font: 400 41px "Inter", sans-serif;
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  width: 315px;
+  height: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-left {
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.navbar-left2 {
+  background: rgba(192, 236, 255, 0.14);
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.navbar-verify {
+  width: 98px;
+  height: 80px;
+  position: absolute;
+  left: 264px;
+  top: 0px;
+}
+.navbar-verify2 {
+  background: rgba(147, 177, 187, 0.22);
+  width: 95px;
+  height: 80px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.verify {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 98px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-home {
+  width: 98px;
+  height: 80px;
+  position: absolute;
+  left: 133px;
+  top: 0px;
+}
+.navbar-home2 {
+  background: rgba(147, 177, 187, 0.14);
+  width: 98px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.home {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 98px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-menu {
+  width: 95px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.navbar-menu2 {
+  background: rgba(147, 177, 187, 0.12);
+  width: 95px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.hamburger-menu {
+  background: #d9d9d9;
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  left: 12px;
+  top: 5px;
+}
+.rectangle-30 {
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  left: 12px;
+  top: 5px;
+}
+.body-container {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 912px;
+  position: relative;
+}
+.body-container2 {
+  background: rgba(33, 4, 4, 0.19);
+  width: 1440px;
+  height: 912px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: inset -1px -1px 15px 2px rgba(0, 0, 0, 1);
+  filter: blur(8px);
+}
+.body-display {
+  width: 1120px;
+  height: 728px;
+  position: absolute;
+  left: 160px;
+  top: 92px;
+}
+.body-container3 {
+  background: #cccccc;
+  width: 1120px;
+  height: 728px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content-layer {
+  width: 1100px;
+  height: 708px;
+  position: absolute;
+  left: 20px;
+  top: 9px;
+}
+.content-layer2 {
+  background: #d5caca;
+  width: 1100px;
+  height: 708px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  filter: blur(2px);
+}
+.school-details {
+  width: 360px;
+  height: 233px;
+  position: absolute;
+  left: 360px;
+  top: 31px;
+}
+.school-details2 {
+  background: #ffffff;
+  border-radius: 9px 34px 34px 34px;
+  width: 688px;
+  height: 233px;
+  position: absolute;
+  left: -328px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.school-details-carousel {
+  width: 310px;
+  height: 175px;
+  position: absolute;
+  left: 25px;
+  top: 28px;
+}
+.carousel {
+  width: 310px;
+  height: 149px;
+  position: absolute;
+  left: 0px;
+  top: 38px;
+}
+.carousel-display {
+  width: 299px;
+  height: 108px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.detail-text-display {
+  background: #d9d9d9;
+  width: 182px;
+  height: 22px;
+  position: absolute;
+  left: 117px;
+  top: 0px;
+}
+.school-detail {
+  color: #000000;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 98px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-text-display2 {
+  background: #d9d9d9;
+  width: 182px;
+  height: 22px;
+  position: absolute;
+  left: 117px;
+  top: 27px;
+}
+.school-detail2 {
+  color: #000000;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 27px;
+  width: 98px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-text-display3 {
+  background: #d9d9d9;
+  width: 182px;
+  height: 22px;
+  position: absolute;
+  left: 117px;
+  top: 54px;
+}
+.school-detail3 {
+  color: #000000;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 54px;
+  width: 102px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail-text-display4 {
+  background: #d9d9d9;
+  width: 182px;
+  height: 22px;
+  position: absolute;
+  left: 117px;
+  top: 81px;
+}
+.school-detail4 {
+  color: #000000;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 81px;
+  width: 98px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 0px;
+  width: 190px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.school-profile-display {
+  width: 330px;
+  height: 231px;
+  position: absolute;
+  left: -330px;
+  top: 0px;
+}
+.school-profit-display {
+  background: #ffffff;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-width: 2px;
+  width: 330px;
+  height: 232px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.school-image-container {
+  width: 149px;
+  height: 116px;
+  position: absolute;
+  left: 90px;
+  top: 17px;
+}
+.school-profile-image-display {
+  background: #d9d9d9;
+  width: 149px;
+  height: 116px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.school-image-display {
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  left: 17px;
+  top: 0px;
+}
+.school-profile-image-display2 {
+  background: #ce8383;
+  width: 116px;
+  height: 116px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.school-name-display {
+  width: 274px;
+  height: 29px;
+  position: absolute;
+  left: 26px;
+  top: 145px;
+}
+.school-name-display2 {
+  background: #d9d9d9;
+  width: 274px;
+  height: 29px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.librarian-name {
+  color: #000000;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 64px;
+  top: 4px;
+  width: 149px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-link {
+  width: 219px;
+  height: 32px;
+  position: absolute;
+  left: 55px;
+  top: 178px;
+}
+.link-container {
+  background: #d9d9d9;
+  width: 219px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.email {
+  color: #000000;
+  text-align: center;
+  font: 400 14px "Inter", sans-serif;
+  position: absolute;
+  left: 24px;
+  top: 4px;
+  width: 178px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit-details-carousel {
+  width: 514px;
+  height: 350px;
+  position: absolute;
+  left: 30px;
+  top: 294px;
+}
+.details-editcarousel {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 26px 26px 64px 26px;
+  width: 514px;
+  height: 350px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.14);
+}
+.school-details3 {
+  background: #ffffff;
+  border-radius: 9px 34px 34px 34px;
+  width: 433px;
+  height: 301px;
+  position: absolute;
+  left: 25px;
+  top: 23px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.details2 {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 152px;
+  top: 33px;
+  width: 158px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-display2 {
+  width: 299px;
+  height: 108px;
+  position: absolute;
+  left: 57px;
+  top: 74px;
+}
+.carousel-display3 {
+  width: 299px;
+  height: 108px;
+  position: absolute;
+  left: 57px;
+  top: 193px;
+}
+.files-table-ares {
+  width: 514px;
+  height: 395px;
+  position: absolute;
+  left: 551px;
+  top: 294px;
+}
+.files-table-area {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 26px 26px 64px 22px;
+  width: 514px;
+  height: 395px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.14);
+}
+.files-table-header {
+  width: 514px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.table-header {
+  background: #027bce;
+  border-radius: 25px 25px 25px 0px;
+  width: 514px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.files {
+  color: #ffffff;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 156px;
+  top: 10px;
+  width: 202px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table-contols {
+  width: 514px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.left-button {
+  background: rgba(128, 80, 80, 0.51);
+  border-radius: 40px 0px 0px 0px;
+  width: 25px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.right-button {
+  background: rgba(128, 80, 80, 0.51);
+  border-radius: 0px 70px 60px 0px;
+  width: 25px;
+  height: 54px;
+  position: absolute;
+  left: 489px;
+  top: 0px;
+}
+.table-display {
+  border-radius: 0px 0px 64px 22px;
+  width: 514px;
+  height: 341px;
+  position: absolute;
+  left: 0px;
+  top: 54px;
+}
+.file-record {
+  width: 514px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.record {
+  background: rgba(217, 217, 217, 0.09);
+  width: 514px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: inset 0px -4px 3px -3px rgba(0, 0, 0, 0.25);
+}
+.print-icon {
+  width: 59px;
+  height: 45px;
+  position: absolute;
+  left: 455px;
+  top: 0px;
+}
+.print-option {
+  background: #d9d9d9;
+  width: 59px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.print-icon2 {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  left: 13px;
+  top: 5px;
+}
+.aux-record-column {
+  width: 80px;
+  height: 45px;
+  position: absolute;
+  left: 368px;
+  top: 0px;
+}
+.value {
+  background: #d9d9d9;
+  width: 80px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._100-000-00 {
+  color: #000000;
+  text-align: center;
+  font: 400 11px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  width: 80px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.record-title {
+  width: 265px;
+  height: 45px;
+  position: absolute;
+  left: 95px;
+  top: 0px;
+}
+.loan-repayment-details {
+  background: #d9d9d9;
+  width: 265px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.loan-my-m-ovember-deal {
+  color: #000000;
+  text-align: center;
+  font: 400 11px "Inter", sans-serif;
+  position: absolute;
+  left: 14px;
+  top: 11px;
+  width: 237px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.record-index {
+  width: 75px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.date {
+  background: #d9d9d9;
+  width: 75px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._06-04-2023 {
+  color: #000000;
+  text-align: center;
+  font: 400 11px "Inter", sans-serif;
+  position: absolute;
+  left: 4px;
+  top: 13px;
+  width: 67px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-display {
+  width: 324px;
+  height: 233px;
+  position: absolute;
+  left: 740px;
+  top: 31px;
+}
+.loan-total-summary {
+  background: #ffffff;
+  border-radius: 24px 14px 7px 0px;
+  width: 324px;
+  height: 233px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 6px 6px rgba(0, 0, 0, 0.14);
+}
+.account-details {
+  color: #000000;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 190px;
+  top: 24px;
+  width: 124px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.email-alerts-and-queries {
+  background: #d9d9d9;
+  border-radius: 0px 0px 27px 0px;
+  width: 124px;
+  height: 111px;
+  position: absolute;
+  left: 190px;
+  top: 58px;
+}
+.profile-image {
+  background: #d9d9d9;
+  width: 145px;
+  height: 145px;
+  position: absolute;
+  left: 25px;
+  top: 24px;
+}
+.admin-name-display {
+  background: #d9d9d9;
+  width: 145px;
+  height: 32px;
+  position: absolute;
+  left: 25px;
+  top: 178px;
+}
+.name-surname {
+  color: #000000;
+  text-align: center;
+  font: 400 11px "Inter", sans-serif;
+  position: absolute;
+  left: 43px;
+  top: 187px;
+  width: 109px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
