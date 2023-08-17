@@ -1,0 +1,818 @@
+.user-chat,
+.user-chat * {
+  box-sizing: border-box;
+}
+.user-chat {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.navbar-area {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 112px;
+  position: relative;
+}
+.navbar-area2 {
+  background: #ffffff;
+  width: 1440px;
+  height: 112px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.navbar {
+  width: 1121px;
+  height: 81px;
+  position: absolute;
+  left: 160px;
+  top: 16px;
+}
+.navbar2 {
+  background: #ffffff;
+  width: 1119px;
+  height: 80px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.navbar-right {
+  width: 361px;
+  height: 81px;
+  position: absolute;
+  left: 760px;
+  top: 0px;
+}
+.navbar-right2 {
+  background: rgba(192, 236, 255, 0.22);
+  width: 359px;
+  height: 80px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.navbar-account {
+  width: 96px;
+  height: 81px;
+  position: absolute;
+  left: 265px;
+  top: 0px;
+}
+.navbar-account2 {
+  background: rgba(147, 177, 187, 0.12);
+  width: 96px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.account-icon-container {
+  width: 79px;
+  height: 80px;
+  position: absolute;
+  left: 9px;
+  top: 1px;
+}
+.account-icon-container2 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 79px;
+  height: 79px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.account-icon {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #828282;
+  border-width: 1px;
+  width: 79px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.cart-icons {
+  width: 38px;
+  height: 34px;
+  position: absolute;
+  left: 52px;
+  top: -6px;
+}
+.cart-icon-container {
+  background: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  overflow: hidden;
+}
+.cart-icon-display {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+.rectangle-97 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+.cart-amount-container {
+  background: #ffffff;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  overflow: hidden;
+}
+.cart-amount-display {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+._1 {
+  color: #000000;
+  text-align: center;
+  font: 400 14px "Inter", sans-serif;
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  width: 10px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-chat {
+  width: 98px;
+  height: 81px;
+  position: absolute;
+  left: 132px;
+  top: 0px;
+}
+.navbar-chat2 {
+  background: rgba(147, 177, 187, 0.12);
+  width: 98px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.chat {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 98px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-sell {
+  width: 95px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.navbar-sell2 {
+  background: rgba(147, 177, 187, 0.12);
+  width: 95px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.sell {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 1px;
+  top: 25px;
+  width: 94px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-center {
+  width: 361px;
+  height: 80px;
+  position: absolute;
+  left: 380px;
+  top: 0px;
+}
+.navbar-center2 {
+  background: rgba(192, 236, 255, 0.2);
+  width: 361px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.site-tile {
+  width: 343px;
+  height: 80px;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+}
+.navbar-site-title {
+  background: rgba(147, 177, 187, 0.12);
+  width: 343px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.library-app {
+  color: #000000;
+  text-align: center;
+  font: 400 41px "Inter", sans-serif;
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  width: 315px;
+  height: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-left {
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.navbar-left2 {
+  background: rgba(192, 236, 255, 0.14);
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.navbar-buy {
+  width: 98px;
+  height: 80px;
+  position: absolute;
+  left: 264px;
+  top: 0px;
+}
+.navbar-buy2 {
+  background: rgba(147, 177, 187, 0.22);
+  width: 95px;
+  height: 80px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.buy {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 98px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-home {
+  width: 98px;
+  height: 80px;
+  position: absolute;
+  left: 133px;
+  top: 0px;
+}
+.navbar-home2 {
+  background: rgba(147, 177, 187, 0.14);
+  width: 98px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.home {
+  color: #000000;
+  text-align: center;
+  font: 400 15px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  width: 98px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-menu {
+  width: 95px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.navbar-menu2 {
+  background: rgba(147, 177, 187, 0.12);
+  width: 95px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.hamburger-menu {
+  background: #d9d9d9;
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  left: 12px;
+  top: 5px;
+}
+.rectangle-30 {
+  width: 71px;
+  height: 71px;
+  position: absolute;
+  left: 12px;
+  top: 5px;
+}
+.rectangle-86 {
+  background: rgba(33, 4, 4, 0.19);
+  flex-shrink: 0;
+  width: 1440px;
+  height: 912px;
+  position: relative;
+  filter: blur(8px);
+}
+.body-conatiner {
+  flex-shrink: 0;
+  width: 1120px;
+  height: 728px;
+  position: absolute;
+  left: 160px;
+  top: 204px;
+}
+.body-container {
+  background: #cccccc;
+  width: 1120px;
+  height: 728px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content-layer {
+  width: 1100px;
+  height: 718px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.body-container2 {
+  background: #d5caca;
+  width: 1100px;
+  height: 708px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  filter: blur(2px);
+}
+.conversations-area {
+  width: 324px;
+  height: 395px;
+  position: absolute;
+  left: 750px;
+  top: 283px;
+}
+.conversations-table-display {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 26px 26px 64px 22px;
+  width: 324px;
+  height: 395px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.14);
+}
+.conversations-display-header {
+  width: 324px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.conversations-display-header2 {
+  background: #027bce;
+  border-radius: 25px 25px 25px 0px;
+  width: 324px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.conversations {
+  color: #ffffff;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 98px;
+  top: 10px;
+  width: 128px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conversations-record-display {
+  border-radius: 0px 0px 64px 22px;
+  width: 324px;
+  height: 341px;
+  position: absolute;
+  left: 0px;
+  top: 54px;
+}
+.conversation-record {
+  width: 324px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-39 {
+  background: rgba(217, 217, 217, 0.09);
+  width: 324px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: inset 0px -4px 3px -3px rgba(0, 0, 0, 0.25);
+}
+.loan-repayment-details {
+  background: #d9d9d9;
+  width: 167px;
+  height: 45px;
+  position: absolute;
+  left: 60px;
+  top: 0px;
+}
+.value {
+  background: #d9d9d9;
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  left: 232px;
+  top: 0px;
+}
+.print-option {
+  background: #d9d9d9;
+  width: 37px;
+  height: 45px;
+  position: absolute;
+  left: 287px;
+  top: 0px;
+}
+.print-icon {
+  width: 21px;
+  height: 34px;
+  position: absolute;
+  left: 295px;
+  top: 5px;
+}
+._100-000-00 {
+  color: #000000;
+  text-align: center;
+  font: 400 11px "Inter", sans-serif;
+  position: absolute;
+  left: 232px;
+  top: 6px;
+  width: 50px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loan-my-m-ovember-deal {
+  color: #000000;
+  text-align: center;
+  font: 400 11px "Inter", sans-serif;
+  position: absolute;
+  left: 69px;
+  top: 11px;
+  width: 149px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date {
+  background: #d9d9d9;
+  width: 47px;
+  height: 45px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._06-04-2023 {
+  color: #000000;
+  text-align: center;
+  font: 400 11px "Inter", sans-serif;
+  position: absolute;
+  left: 3px;
+  top: 13px;
+  width: 42px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat-area {
+  width: 701px;
+  height: 658px;
+  position: absolute;
+  left: 29px;
+  top: 30px;
+}
+.text-input {
+  width: 693px;
+  height: 197px;
+  position: absolute;
+  left: 4px;
+  top: 461px;
+}
+.loan-repayment-application {
+  background: #ffffff;
+  border-radius: 20px;
+  width: 693px;
+  height: 197px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.text-input-contols {
+  width: 190px;
+  height: 197px;
+  position: absolute;
+  left: 503px;
+  top: 0px;
+}
+.loan-repayment-application2 {
+  background: #ffffff;
+  border-radius: 34px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.18);
+  border-width: 1px;
+  width: 190px;
+  height: 197px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.clear-button {
+  background: #c2c2c2;
+  width: 145px;
+  height: 70px;
+  position: absolute;
+  left: 22px;
+  top: 23px;
+}
+.clear {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 18px;
+  top: 14px;
+  width: 110px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.send-button {
+  background: #c2c2c2;
+  width: 145px;
+  height: 70px;
+  position: absolute;
+  left: 22px;
+  top: 104px;
+}
+.send {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 18px;
+  top: 12px;
+  width: 110px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-input-display {
+  background: #c2c2c2;
+  width: 475px;
+  height: 164px;
+  position: absolute;
+  left: 14px;
+  top: 16px;
+}
+.chat-display {
+  width: 683px;
+  height: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.chat-display2 {
+  background: #ffffff;
+  border-radius: 34px;
+  width: 683px;
+  height: 450px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.chat2 {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Inter", sans-serif;
+  position: absolute;
+  left: 158px;
+  top: 18px;
+  width: 383px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat-container {
+  width: 587px;
+  height: 341px;
+  position: absolute;
+  left: 56px;
+  top: 68px;
+}
+.conversation-display {
+  background: #c2c2c2;
+  width: 587px;
+  height: 282px;
+  position: absolute;
+  left: 0px;
+  top: 59px;
+}
+.date-input {
+  width: 302px;
+  height: 25px;
+  position: absolute;
+  left: 285px;
+  top: 29px;
+}
+.frame-39 {
+  background: #c2c2c2;
+  width: 227px;
+  height: 25px;
+  position: absolute;
+  left: 75px;
+  top: 0px;
+}
+.date2 {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  width: 62px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.converastion-title-input {
+  width: 302px;
+  height: 25px;
+  position: absolute;
+  left: 285px;
+  top: 0px;
+}
+.title {
+  color: #000000;
+  text-align: center;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  width: 62px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-display {
+  width: 324px;
+  height: 233px;
+  position: absolute;
+  left: 750px;
+  top: 30px;
+}
+.profile-display2 {
+  background: #ffffff;
+  width: 324px;
+  height: 233px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 6px 6px rgba(0, 0, 0, 0.14);
+}
+.quick-details-display {
+  background: #d9d9d9;
+  border-radius: 0px 0px 27px 0px;
+  width: 124px;
+  height: 152px;
+  position: absolute;
+  left: 181px;
+  top: 58px;
+}
+.account-details {
+  color: #000000;
+  text-align: center;
+  font: 400 16px "Inter", sans-serif;
+  position: absolute;
+  left: 181px;
+  top: 24px;
+  width: 124px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-name {
+  width: 145px;
+  height: 32px;
+  position: absolute;
+  left: 25px;
+  top: 178px;
+}
+.profile-name2 {
+  background: #d9d9d9;
+  width: 145px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.name-surname {
+  color: #000000;
+  text-align: center;
+  font: 400 11px "Inter", sans-serif;
+  position: absolute;
+  left: 26px;
+  top: 9px;
+  width: 93px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-image {
+  background: #d9d9d9;
+  width: 145px;
+  height: 145px;
+  position: absolute;
+  left: 25px;
+  top: 24px;
+}
